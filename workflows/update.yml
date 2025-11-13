@@ -5,6 +5,9 @@ on:
     - cron: '*/5 * * * *'
   workflow_dispatch:
 
+  permissions:
+  contents: write  # ← detta behövs för att kunna pusha
+
 jobs:
   build:
     runs-on: ubuntu-latest
