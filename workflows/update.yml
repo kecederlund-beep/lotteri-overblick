@@ -1,0 +1,33 @@
+name: Uppdatera data.json
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Klona repo
+      uses: actions/checkout@v3
+
+    - name: Ställ in Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'
+
+    - name: Installera fetch
+      run: npm install node-fetch@2
+
+    - name: Kör scraper
+      run: node scrape.js
+
+    - name: Committa och pusha ändringar
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        git add data.json
+        git commit -m "Uppdaterar data.json ($(date))" || echo "Inget att committa"
+        git push
