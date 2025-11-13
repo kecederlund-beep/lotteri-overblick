@@ -19,15 +19,17 @@ const CLUBS = [
 ];
 
 async function extractAmount(html) {
-  // Matchar t.ex. "Aktuell vinstsumma 12 345 kr"
-  const match = html.match(/Aktuell vinstsumma\s*([\d\s]+) ?kr/i);
+  // Kombinera rader med summor och kr
+  const cleanHtml = html.replace(/&nbsp;/g, ' ').replace(/\n/g, ' ').replace(/\s+/g, ' ');
+
+  // Matcha belopp strax före "kr"
+  const match = cleanHtml.match(/(\d{1,3}(?:\s\d{3})*)\s?kr/i);
   if (match) {
-    const cleaned = match[1].replace(/\s+/g, '');
-    return parseInt(cleaned, 10);
+    return parseInt(match[1].replace(/\s+/g, ''), 10);
   }
+
   return null;
 }
-
 async function fetchClub(club) {
   const url = `https://clubs.clubmate.se/${club.slug}/`;
   try {
