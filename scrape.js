@@ -1,6 +1,5 @@
-// scrape.js
-const fs = require('fs');
-const fetch = require('node-fetch');
+import fs from 'fs';
+import fetch from 'node-fetch';
 
 const CLUBS = [
   { name: "Luleå HF",        slug: "luleahockey" },
@@ -19,46 +18,49 @@ const CLUBS = [
   { name: "Växjö Lakers HC", slug: "vaxjolakers" }
 ];
 
-async function getAmountFromHTML(html) {
+async function extractAmount(html) {
+  // Matchar t.ex. "Aktuell vinstsumma 12 345 kr"
   const match = html.match(/Aktuell vinstsumma\s*([\d\s]+) ?kr/i);
   if (match) {
-    return parseInt(match[1].replace(/\s+/g, ''));
+    const cleaned = match[1].replace(/\s+/g, '');
+    return parseInt(cleaned, 10);
   }
   return null;
 }
 
-async function fetchClubData(club) {
+async function fetchClub(club) {
   const url = `https://clubs.clubmate.se/${club.slug}/`;
   try {
     const res = await fetch(url);
     const html = await res.text();
-    const amount = await getAmountFromHTML(html);
+    const amount = await extractAmount(html);
+
     return {
       club: club.name,
-      amount,
+      amount: amount ?? null,
       currency: "SEK",
       url,
       fetched_at: new Date().toISOString(),
       debug: {
-        strategy: "regex-match",
+        strategy: "regex",
         raw: html.match(/Aktuell vinstsumma.*?kr/i)?.[0] || "(not found)"
       }
     };
-  } catch (error) {
+  } catch (err) {
     return {
       club: club.name,
       amount: null,
       currency: "SEK",
       url,
       fetched_at: new Date().toISOString(),
-      error: error.message
+      error: err.message
     };
   }
 }
 
 async function run() {
-  const results = await Promise.all(CLUBS.map(fetchClubData));
-  fs.writeFileSync("data.json", JSON.stringify(results, null, 2));
+  const all = await Promise.all(CLUBS.map(fetchClub));
+  fs.writeFileSync("data.json", JSON.stringify(all, null, 2));
 }
 
 run();
