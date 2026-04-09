@@ -4,7 +4,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/luleahockey/",
-    "fetched_at": "2026-04-09T03:46:44.226Z",
+    "fetched_at": "2026-04-09T05:31:14.995Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -15,7 +15,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/brynas/",
-    "fetched_at": "2026-04-09T03:46:44.229Z",
+    "fetched_at": "2026-04-09T05:31:15.124Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -26,7 +26,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/difhockey/",
-    "fetched_at": "2026-04-09T03:46:44.286Z",
+    "fetched_at": "2026-04-09T05:31:15.005Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -37,7 +37,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/farjestadbk/",
-    "fetched_at": "2026-04-09T03:46:44.427Z",
+    "fetched_at": "2026-04-09T05:31:15.128Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -48,7 +48,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/frolundahockey/",
-    "fetched_at": "2026-04-09T03:46:44.421Z",
+    "fetched_at": "2026-04-09T05:31:15.127Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -59,7 +59,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/hv71/",
-    "fetched_at": "2026-04-09T03:46:44.382Z",
+    "fetched_at": "2026-04-09T05:31:15.133Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -70,7 +70,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/leksandsif/",
-    "fetched_at": "2026-04-09T03:46:44.421Z",
+    "fetched_at": "2026-04-09T05:31:15.162Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -81,7 +81,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/lhc/",
-    "fetched_at": "2026-04-09T03:46:44.287Z",
+    "fetched_at": "2026-04-09T05:31:15.035Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -92,7 +92,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/malmoredhawks/",
-    "fetched_at": "2026-04-09T03:46:44.404Z",
+    "fetched_at": "2026-04-09T05:31:15.080Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -103,7 +103,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/orebrohockey/",
-    "fetched_at": "2026-04-09T03:46:44.421Z",
+    "fetched_at": "2026-04-09T05:31:15.145Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -114,7 +114,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/roglebk/",
-    "fetched_at": "2026-04-09T03:46:44.300Z",
+    "fetched_at": "2026-04-09T05:31:15.039Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -125,7 +125,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/skellefteaaik/",
-    "fetched_at": "2026-04-09T03:46:44.435Z",
+    "fetched_at": "2026-04-09T05:31:15.147Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -136,7 +136,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/timraik/",
-    "fetched_at": "2026-04-09T03:46:44.227Z",
+    "fetched_at": "2026-04-09T05:31:15.145Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -147,7 +147,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/vaxjolakers/",
-    "fetched_at": "2026-04-09T03:46:44.409Z",
+    "fetched_at": "2026-04-09T05:31:15.130Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
