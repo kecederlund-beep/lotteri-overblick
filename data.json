@@ -4,7 +4,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/luleahockey/",
-    "fetched_at": "2026-05-25T01:53:15.042Z",
+    "fetched_at": "2026-05-25T06:19:03.589Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -15,7 +15,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/brynas/",
-    "fetched_at": "2026-05-25T01:53:15.133Z",
+    "fetched_at": "2026-05-25T06:19:03.514Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -26,7 +26,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/difhockey/",
-    "fetched_at": "2026-05-25T01:53:15.338Z",
+    "fetched_at": "2026-05-25T06:19:03.576Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -37,7 +37,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/farjestadbk/",
-    "fetched_at": "2026-05-25T01:53:15.185Z",
+    "fetched_at": "2026-05-25T06:19:04.323Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -48,7 +48,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/frolundahockey/",
-    "fetched_at": "2026-05-25T01:53:15.033Z",
+    "fetched_at": "2026-05-25T06:19:10.875Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -59,7 +59,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/hv71/",
-    "fetched_at": "2026-05-25T01:53:15.065Z",
+    "fetched_at": "2026-05-25T06:19:03.451Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -70,18 +70,15 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/leksandsif/",
-    "fetched_at": "2026-05-25T01:53:15.007Z",
-    "debug": {
-      "strategy": "regex",
-      "raw": "(not found)"
-    }
+    "fetched_at": "2026-05-25T06:19:15.856Z",
+    "error": "Invalid response body while trying to fetch https://clubs.clubmate.se/leksandsif/: Parse Error: Invalid character in chunk size"
   },
   {
     "club": "Linköping HC",
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/lhc/",
-    "fetched_at": "2026-05-25T01:53:15.082Z",
+    "fetched_at": "2026-05-25T06:19:03.498Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -92,7 +89,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/malmoredhawks/",
-    "fetched_at": "2026-05-25T01:53:15.116Z",
+    "fetched_at": "2026-05-25T06:19:10.652Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -103,7 +100,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/orebrohockey/",
-    "fetched_at": "2026-05-25T01:53:15.065Z",
+    "fetched_at": "2026-05-25T06:19:03.437Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -114,7 +111,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/roglebk/",
-    "fetched_at": "2026-05-25T01:53:15.018Z",
+    "fetched_at": "2026-05-25T06:19:03.501Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -125,7 +122,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/skellefteaaik/",
-    "fetched_at": "2026-05-25T01:53:15.075Z",
+    "fetched_at": "2026-05-25T06:19:05.500Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -136,7 +133,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/timraik/",
-    "fetched_at": "2026-05-25T01:53:15.076Z",
+    "fetched_at": "2026-05-25T06:19:03.508Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -147,7 +144,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/vaxjolakers/",
-    "fetched_at": "2026-05-25T01:53:15.198Z",
+    "fetched_at": "2026-05-25T06:19:03.600Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
