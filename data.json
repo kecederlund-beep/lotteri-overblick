@@ -1,10 +1,10 @@
 [
   {
     "club": "Luleå HF",
-    "amount": 0,
+    "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/luleahockey/",
-    "fetched_at": "2026-06-08T18:35:06.996Z",
+    "fetched_at": "2026-06-08T21:02:36.834Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -12,10 +12,10 @@
   },
   {
     "club": "Brynäs IF",
-    "amount": 0,
+    "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/brynas/",
-    "fetched_at": "2026-06-08T18:35:07.104Z",
+    "fetched_at": "2026-06-08T21:02:36.747Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -23,10 +23,10 @@
   },
   {
     "club": "Djurgårdens IF",
-    "amount": 0,
+    "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/difhockey/",
-    "fetched_at": "2026-06-08T18:35:07.045Z",
+    "fetched_at": "2026-06-08T21:02:36.878Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -34,10 +34,10 @@
   },
   {
     "club": "Färjestad BK",
-    "amount": 0,
+    "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/farjestadbk/",
-    "fetched_at": "2026-06-08T18:35:07.072Z",
+    "fetched_at": "2026-06-08T21:02:36.846Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -45,10 +45,10 @@
   },
   {
     "club": "Frölunda HC",
-    "amount": 0,
+    "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/frolundahockey/",
-    "fetched_at": "2026-06-08T18:35:07.011Z",
+    "fetched_at": "2026-06-08T21:02:36.815Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -56,10 +56,10 @@
   },
   {
     "club": "HV 71",
-    "amount": 0,
+    "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/hv71/",
-    "fetched_at": "2026-06-08T18:35:07.000Z",
+    "fetched_at": "2026-06-08T21:02:36.907Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -67,10 +67,10 @@
   },
   {
     "club": "Leksands IF",
-    "amount": 0,
+    "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/leksandsif/",
-    "fetched_at": "2026-06-08T18:35:06.983Z",
+    "fetched_at": "2026-06-08T21:02:37.195Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -78,10 +78,10 @@
   },
   {
     "club": "Linköping HC",
-    "amount": 0,
+    "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/lhc/",
-    "fetched_at": "2026-06-08T18:35:07.091Z",
+    "fetched_at": "2026-06-08T21:02:36.925Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -89,10 +89,10 @@
   },
   {
     "club": "IF Malmö Redhawks",
-    "amount": 0,
+    "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/malmoredhawks/",
-    "fetched_at": "2026-06-08T18:35:07.090Z",
+    "fetched_at": "2026-06-08T21:02:36.897Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -100,10 +100,10 @@
   },
   {
     "club": "Örebro HK",
-    "amount": 0,
+    "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/orebrohockey/",
-    "fetched_at": "2026-06-08T18:35:06.831Z",
+    "fetched_at": "2026-06-08T21:02:36.990Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -111,10 +111,10 @@
   },
   {
     "club": "Rögle BK",
-    "amount": 0,
+    "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/roglebk/",
-    "fetched_at": "2026-06-08T18:35:06.937Z",
+    "fetched_at": "2026-06-08T21:02:36.923Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -122,10 +122,10 @@
   },
   {
     "club": "Skellefteå AIK",
-    "amount": 0,
+    "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/skellefteaaik/",
-    "fetched_at": "2026-06-08T18:35:06.993Z",
+    "fetched_at": "2026-06-08T21:02:36.853Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -133,10 +133,10 @@
   },
   {
     "club": "Timrå IK",
-    "amount": 0,
+    "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/timraik/",
-    "fetched_at": "2026-06-08T18:35:08.447Z",
+    "fetched_at": "2026-06-08T21:02:36.928Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -144,10 +144,10 @@
   },
   {
     "club": "Växjö Lakers HC",
-    "amount": 0,
+    "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/vaxjolakers/",
-    "fetched_at": "2026-06-08T18:35:06.938Z",
+    "fetched_at": "2026-06-08T21:02:36.830Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
