@@ -4,18 +4,15 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/luleahockey/",
-    "fetched_at": "2026-09-06T18:22:26.844Z",
-    "debug": {
-      "strategy": "regex",
-      "raw": "(not found)"
-    }
+    "fetched_at": "2026-09-06T20:33:38.963Z",
+    "error": "request to https://clubs.clubmate.se/luleahockey/ failed, reason: read ECONNRESET"
   },
   {
     "club": "Brynäs IF",
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/brynas/",
-    "fetched_at": "2026-09-06T18:22:26.808Z",
+    "fetched_at": "2026-09-06T20:33:39.176Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -26,7 +23,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/difhockey/",
-    "fetched_at": "2026-09-06T18:22:26.754Z",
+    "fetched_at": "2026-09-06T20:33:39.089Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -37,7 +34,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/farjestadbk/",
-    "fetched_at": "2026-09-06T18:22:26.721Z",
+    "fetched_at": "2026-09-06T20:33:39.097Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -48,7 +45,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/frolundahockey/",
-    "fetched_at": "2026-09-06T18:22:26.838Z",
+    "fetched_at": "2026-09-06T20:33:39.235Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -59,7 +56,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/hv71/",
-    "fetched_at": "2026-09-06T18:22:26.836Z",
+    "fetched_at": "2026-09-06T20:33:39.195Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -70,7 +67,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/leksandsif/",
-    "fetched_at": "2026-09-06T18:22:26.740Z",
+    "fetched_at": "2026-09-06T20:33:39.077Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -81,7 +78,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/lhc/",
-    "fetched_at": "2026-09-06T18:22:26.857Z",
+    "fetched_at": "2026-09-06T20:33:39.215Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -92,7 +89,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/malmoredhawks/",
-    "fetched_at": "2026-09-06T18:22:26.809Z",
+    "fetched_at": "2026-09-06T20:33:39.269Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -103,7 +100,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/orebrohockey/",
-    "fetched_at": "2026-09-06T18:22:26.722Z",
+    "fetched_at": "2026-09-06T20:33:39.168Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -114,7 +111,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/roglebk/",
-    "fetched_at": "2026-09-06T18:22:26.781Z",
+    "fetched_at": "2026-09-06T20:33:39.071Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -125,7 +122,7 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/skellefteaaik/",
-    "fetched_at": "2026-09-06T18:22:26.889Z",
+    "fetched_at": "2026-09-06T20:33:39.235Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
@@ -136,18 +133,15 @@
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/timraik/",
-    "fetched_at": "2026-09-06T18:22:26.832Z",
-    "debug": {
-      "strategy": "regex",
-      "raw": "(not found)"
-    }
+    "fetched_at": "2026-09-06T20:33:38.964Z",
+    "error": "request to https://clubs.clubmate.se/timraik/ failed, reason: read ECONNRESET"
   },
   {
     "club": "Växjö Lakers HC",
     "amount": null,
     "currency": "SEK",
     "url": "https://clubs.clubmate.se/vaxjolakers/",
-    "fetched_at": "2026-09-06T18:22:26.829Z",
+    "fetched_at": "2026-09-06T20:33:39.172Z",
     "debug": {
       "strategy": "regex",
       "raw": "(not found)"
